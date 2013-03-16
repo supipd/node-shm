@@ -5,7 +5,7 @@
   "targets": [
     {
       "target_name": "shm",
-      "sources": [ "SHM.cc", "SHMobject.cc", "shmop.c" ]
+      "sources": [ "src/SHM.cc", "src/SHMobject.cc", "src/shmop.c" ]
     }
    ,{
       "target_name": "shm_cli",
@@ -13,7 +13,7 @@
       "defines": [
         'USE_AS_CONSOLE'
       ],
-      "sources": [ "shmop.c", "shmop_cli.c" ]
+      "sources": [ "src/shmop.c", "src/shmop_cli.c" ]
     }
    ,{
       "target_name": "shm_test",
@@ -21,7 +21,7 @@
       "defines": [
         'TEST_JS_SHMOP'
       ],
-      "sources": [ "shmop.c", "shmop_cli.c" ]
+      "sources": [ "src/shmop.c", "src/shmop_cli.c" ]
     }
   ]
 }
