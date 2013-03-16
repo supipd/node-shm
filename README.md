@@ -96,7 +96,7 @@ var timerD = setTimeout( function() {
 License
 -------
 
-Copyright (c) 2013 Jan Supuka &lt;sbmintegral@sbmintegral.sk&gt;
+Copyright (c) 2013 Jan Supuka sbmintegral.sk
 
 The MIT License
 
