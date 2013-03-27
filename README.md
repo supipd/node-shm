@@ -29,7 +29,7 @@ And communication between processes can start.
 TODO: simple SHM manager. 
 
 
-The module is currently build on windows, linux not already tested. 
+The module works on Windows and Linux, OsX not tested (but has the same native SHM call as Linux, maybe works). 
 
 #####Because a newbie in nodejs, this native addon is maybe not very pretty ... any help invited
 
